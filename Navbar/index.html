@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+       body{
+        margin-top: 20px;
+        margin-left: 20px;
+        background-image: url(./sunset.jpg);
+        background-size: 100%;
+       }
+       ul li:hover{
+        background-color: yellow;
+        color: rgb(248, 246, 246);
+
+       }
+       ul{
+        list-style-type: none;
+       }
+       ul li a{
+        text-decoration: none;
+        color: white;
+       }
+       ul li{
+        float: left;
+        width: 250px;
+        height: 40px;
+        line-height: 40px;
+        background-color: blue;
+        text-align: center;
+        font-size: 22px;
+        border-radius: 25px;
+        opacity: 0.6;
+       }
+       ul li ul{
+        display: none;
+       }
+       ul li:hover > ul{
+        display: block;
+       }
+       ul li ul li{
+        position: relative;
+       }
+       ul li ul li ul {
+        position: absolute;
+        /* margin-left: 250px; */
+        left: 250px;
+        top: 0px;
+       }
+     
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="">Coures</a>
+        <ul>
+            <li><a href="#">Ms office</a>
+            <ul>
+                <li><a href="#">Word</a></li>
+                <li><a href="#">powerpoint</a></li>
+                <li><a href="#">excel</a></li>
+                <li><a href="#">acess</a></li>
+            </ul></li>
+            <li><a href="#">Ms Word</a></li>
+            <li><a href="#"> python</a></li>
+        </ul>
+    </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Carrier</a></li>
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+    
+</body>
+</html>
