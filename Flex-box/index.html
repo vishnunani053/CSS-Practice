@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+ <style>
+    .container{
+        /* display: inline-flex;*/
+        height: 60vh;
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       /*flex-wrap: wrap-reverse;*/
+       
+      
+    }
+    .container-1{
+        height: fit-content;
+        border: 10px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   /* .box-2{
+        width: 200px;
+        flex-shrink: 0;
+    }
+    .box-5{
+        width: 500px;
+        flex-shrink: 0;
+    } */
+   /* .box-1{
+       display: flex;
+       align-self: center;
+    }
+    .box-3{
+        align-self: stretch;
+    }
+    .box-5{
+        align-self: baseline;
+    }
+    .box-4{
+        align-self: flex-start;
+    }
+  */
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
+       
+
+    </div>
+    <div class="container-1">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
+       
+
+    </div>
+</body>
+</html>
